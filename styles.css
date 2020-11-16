@@ -1,3 +1,76 @@
-* {
-    border: 2px solid red;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
+h1 {
+    color: white;
+    font: bold 30px/19px "Roboto Condensed",sans-serif;
+}
+
+h4 {
+    color: rgba(3,3,3,.4);
+    font:bold 16px/16px "Roboto Condensed",sans-serif;
+}
+
+h2 {
+    color: #333;
+    font: bold 19px/19px "Roboto Condensed",sans-serif;
+    margin-bottom: 15px;
+}
+
+.big-story-heading {
+    font-size: 20px;
+    line-height: 24px;
+    font-family: 'Roboto Condensed', sans-serif; 
+    font-weight: 700;
+}
+
+.small-story-heading {
+    font-size: 17px;
+    line-height: 20px;
+    font-family: 'Roboto Condensed', sans-serif; 
+    font-weight: 700;
+}
+
+.red-background-text{
+    background-color: #f72210;
+    color: white;
+    padding: 4px;
+    margin-right: 7px;
+    font: bold 16px/26px "Roboto Condensed",sans-serif;
+}
+
+.red-title-text{
+    color: red;
+    margin-right: 7px;
+    font: bold 16px/26px "Roboto Condensed",sans-serif;
+}
+
+.story-description {
+    font-size: 15px;
+    line-height: 20px;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.author-text {
+    font-size: 14px;
+    line-height: 21px;
+    color: #555;
+    font-family: 'Roboto Condensed', sans-serif; 
+    font-weight: 700;
+}
+
+.thin-separator {
+    border-bottom: 1.5px solid lightgrey
+}
+
+.thick-separator {
+    border-bottom: 3px solid lightgrey
+}
+
+.border-separator {
+    border: 1px solid lightgrey
+}
+
+.bg-red{
+    background-color: red;
 }
